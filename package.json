@@ -1,0 +1,60 @@
+{
+  "name": "@dndc/webpack-dndc",
+  "version": "0.1.5",
+  "devDependencies": {
+    "autoprefixer": "7.1.6",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "rucksack-css": "1.0.2",
+    "jsdoc": "^3.5.3",
+    "jsdoc-babel": "^0.3.0",
+    "jsdoc-to-markdown": "^3.0.0",
+    "rollup": "^0.43.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-watch": "^4.0.0"
+  },
+  "dependencies": {
+    "webpack": "3.8.0",
+    "webpack-dev-server": "2.7.1",
+    "webpack-merge": "4.1.1",
+    "progress-bar-webpack-plugin": "1.10.0",
+    "extract-text-webpack-plugin": "3.0.2",
+    "path": "0.12.7",
+    "css-loader": "~0.23.0",
+    "less": "2.7.2",
+    "less-loader": "4.0.5",
+    "style-loader": "0.18.2",
+    "postcss": "6.0.13",
+    "postcss-loader": "2.0.8",
+    "@dndc/dealer-admin-pxtorem": "0.0.1",
+    "html-webpack-plugin": "2.30.1",
+    "chalk": "2.3.0",
+    "@dndc/project-spanner": "^0.0.33"
+  },
+  "main": "./dest/index.js",
+  "document": "wepback-dndc-api.md",
+  "scripts": {
+    "jsdoc": "cao jsdoc -m webpackDndc",
+    "pub": "cao publish",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "dndc",
+    "webpack"
+  ],
+  "author": "dndc",
+  "license": "ISC"
+}

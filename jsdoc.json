@@ -1,0 +1,7 @@
+{
+    "plugins": ["node_modules/jsdoc-babel"],
+    "babel": {
+        "presets": [ "latest" ],
+        "plugins": [ "transform-async-to-generator" ]
+    }
+}

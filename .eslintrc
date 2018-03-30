@@ -1,0 +1,10 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": "airbnb-base",
+    "rules": {
+        "prefer-arrow-callback": 0,
+        "import/no-extraneous-dependencies": 0
+    },
+}
